@@ -1,0 +1,26 @@
+{
+  "name": "the-hcg-app",
+  "description": "The HCG Application with AngularJS 1.x",
+  "main": "gulpfile.js",
+  "authors": [
+    "Ashadi Pratama (ashsepra@gmail.com)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "KFC",
+    "KFC",
+    "The",
+    "HCG",
+    "The",
+    "HCG",
+    "application"
+  ],
+  "homepage": "https://github.com/ashsepra/the-HCG-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

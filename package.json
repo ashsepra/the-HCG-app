@@ -1,0 +1,44 @@
+{
+  "name": "the-hcg-app",
+  "version": "1.0.0",
+  "description": "The HCG Application with AngularJS 1.x",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashsepra/the-HCG-app.git"
+  },
+  "keywords": [
+    "KFC",
+    "KFC",
+    "The",
+    "HCG",
+    "The",
+    "HCG",
+    "application"
+  ],
+  "author": "Ashadi Pratama (ashsepra@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashsepra/the-HCG-app/issues"
+  },
+  "homepage": "https://github.com/ashsepra/the-HCG-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-file-include": "^0.14.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-sass": "^2.3.2",
+    "jshint": "^2.9.3"
+  },
+  "dependencies": {
+    "gulp-cssnano": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9"
+  }
+}
