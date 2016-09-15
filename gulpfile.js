@@ -30,8 +30,6 @@ var assets = {
 					scripts: [
 								'./bower_components/jquery/dist/jquery.js',
 								'./bower_components/bootstrap/dist/js/bootstrap.js',
-								'./bower_components/angular/angular.min.js',
-								'./bower_components/angular-route/angular-route.min.js',
 								srcFolder + '/scripts/lib/*.js', 
 								srcFolder + '/scripts/common.js'
 							],
@@ -42,6 +40,7 @@ var assets = {
 								srcFolder + '/fonts/*' 
 							],
 					images: [
+								srcFolder + '/images/*',
 								srcFolder + '/images/**/*'
 							]
 				},

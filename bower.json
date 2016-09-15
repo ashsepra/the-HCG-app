@@ -1,6 +1,6 @@
 {
   "name": "the-hcg-app",
-  "description": "The HCG Application with AngularJS 1.x",
+  "description": "The HCG Application",
   "main": "gulpfile.js",
   "authors": [
     "Ashadi Pratama (ashsepra@gmail.com)"
@@ -22,5 +22,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "jquery": "1.12",
+    "bootstrap": "^3.3.7"
+  }
 }
