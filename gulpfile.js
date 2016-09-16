@@ -88,7 +88,7 @@ var footerAssets = {
 				}
 			}
 
-gulp.task('default', ['compile-sass', 'compile-style', 'compile-html', 'compile-script', 'compile-font', 'compile-image'] ,function(){
+gulp.task('default', ['wathch-sass', 'compile-sass', 'compile-style', 'compile-html', 'compile-script', 'compile-font', 'compile-image'] ,function(){
 	watch(assets.source.sass, function(){
 		gulp.start('compile-sass')
 	});
@@ -122,6 +122,10 @@ gulp.task('compile-sass', function() {
 	gulp.src(assets.source.sass)
 		.pipe(sass({outputStyle: 'expanded'})).on('error', errorHandle)
 		.pipe(gulp.dest(assets.destination.sass));
+});
+
+gulp.task('wathch-sass', function(){
+	gulp.watch(srcFolder + '/sass/modules/*.scss', ['compile-sass']);
 });
 
 gulp.task('compile-style', function() {

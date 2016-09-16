@@ -1,0 +1,138 @@
+.header-video-section {
+    background-color: #8a0c24;
+    color: #ffffff;
+
+    figure {
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+        display: block;
+        line-height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    h2 {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    > img {
+        width: 100%;
+    }
+
+    iframe {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .play-video {
+        display: none;
+    }
+
+    .video-in {
+        .play-video {
+            display: block;
+        }
+
+        iframe {
+            display: none;
+        }
+    }
+        
+    .btn-container {
+        max-width: 254px;
+        @media screen and (max-width: 767px) {
+            margin: 0 auto;
+        }
+
+        .btn-separator {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 0;
+            padding: 20px 0;
+        }
+    }
+
+    .btn {
+        background-color: #f6ad2d;
+        border-bottom: none;
+        border-left: 2px solid #e08824;
+        border-right: none;
+        border-top: none;
+        border-radius: 0;
+        color: #000000;
+        display: block;
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align: center;
+        position: relative;
+    }
+
+    .btn-arrow {
+        padding-right: 50px;
+
+        span {
+            background: url(../images/ico-arrow-btn-black.png) no-repeat center center #db8923;
+            display: block;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 50px;
+        }
+    }
+
+    .btn-play {
+        span {
+            background-image: url(../images/ico-arrow-btn-play.png);
+        }
+    }
+    .img-banner-container {
+        text-align: right;
+        @media screen and (max-width: 767px) {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.header-video-wrapper {
+    margin: 0 auto;
+    max-width: 820px;
+    padding: 68px 0;
+}
+
+.play-video .play-btn {
+    background: url("../images/ico-play.png") no-repeat;
+    font-size: 0;
+    height: 102px;
+    left: 50%;
+    margin-left: -51px;
+    margin-top: -51px;
+    position: absolute;
+    top: 50%;
+    width: 102px;
+    z-index: 11;
+
+    @media screen and (max-width: 599px) {
+        background-image: url('../images/ico-play-small.png');
+        height: 52px;
+        margin-left: -26px;
+        margin-top: -26px;
+        width: 52px;
+    }
+}
