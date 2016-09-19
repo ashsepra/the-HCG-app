@@ -1,0 +1,23 @@
+.thumbnail-clue {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+	font-family: Arial, sans-serif;
+	padding: 30px 10px 5px;
+
+	> img {
+		margin-bottom: 10px;
+	}
+
+	strong {
+		color: #c21534;
+	}
+}
+
+.thumbnail-prize {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}

@@ -1,0 +1,59 @@
+.btn {
+    background-color: #666666;
+    border-bottom: none;
+    border-left: 2px solid #333333;
+    border-right: none;
+    border-top: none;
+    border-radius: 0;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    min-width: 252px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.btn-arrow {
+    padding-right: 50px;
+
+    span {
+        background: #db8923;
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+    }
+}
+
+.btn-yellow {
+    background-color: #f6ad2d;
+    border-color: #e08824;
+
+    &.btn-arrow {
+        span {
+            background: url(../images/ico-arrow-btn-black.png) no-repeat center center #db8923;
+        }
+    }
+
+    &.btn-play {
+        span {
+            background-image: url(../images/ico-arrow-btn-play.png);
+        }
+    }
+}
+
+.btn-red {
+    background-color: #c4112f;
+    border-color: #a50d24;
+    color: #ffffff;
+
+    &.btn-arrow {
+        span {
+            background: url(../images/ico-arrow-btn.png) no-repeat center center #b20e27;
+        }
+    }
+}

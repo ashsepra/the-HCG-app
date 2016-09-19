@@ -1,0 +1,62 @@
+.accordion-question-wrapper {
+	margin: 0 auto;
+	max-width: 460px;
+}
+
+.accordion {
+	font-family: Arial, sans-serif;
+	margin-bottom: 50px;
+	
+	.panel-default {
+		background-color: transparent;
+		border-radius: 0;
+		border: none;
+		border-bottom: 1px dashed #a3a3a3;
+		box-shadow: none;
+
+		> .panel-heading {
+		    background-color: transparent;
+		    border: none;
+		    padding-left: 30px;
+		    position: relative;
+
+		    &.in {
+				
+		    }
+
+		    a {
+		    	span {
+					background: url(../images/ico-accordion.png) no-repeat -27px -5px;
+					display: block;
+					height: 8px;
+				    left: 5px;
+				    position: absolute;
+				    top: 15px;
+				    width: 12px;
+				}
+
+				&.collapsed {
+					span {
+						background-position: -5px -5px;
+					}
+				}
+		    }
+
+		    a {
+		    	&:focus {
+		    		text-decoration: none;
+		    	}
+		    }
+
+		    + .panel-collapse {
+		    	> .panel-body {
+					border-top: 1px dashed #a3a3a3;
+		    	}
+		    }
+		}
+
+		
+	}
+
+	
+}

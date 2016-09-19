@@ -3,11 +3,13 @@ body {
 	margin-top: 86px;
 }
 
-.img-proportion {
-	max-width: 100%;
-	width: auto;
-}
 
 @import 'modules/font';
+@import 'modules/global';
+@import 'modules/btn';
 @import 'modules/navigation';
 @import 'modules/header-video';
+@import 'modules/section';
+@import 'modules/thumbnail';
+@import 'modules/prize';
+@import 'modules/accordion';

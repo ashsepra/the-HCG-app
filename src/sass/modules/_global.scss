@@ -1,0 +1,19 @@
+.img-proportion {
+	max-width: 100%;
+	width: auto;
+}
+
+h2 {
+	font-family: "DIN-Bold", sans-serif;
+	font-size: 32px;
+	line-height: 120%;
+	margin-bottom: 40px;
+
+	&.red {
+		color: #c21534;
+	}
+
+	&.white {
+		color: #ffffff;
+	}
+}
